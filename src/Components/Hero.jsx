@@ -14,9 +14,9 @@ const Hero = () => {
 
                 {/* Sub text */}
                 <p className="mt-6 text-lg font-semibold text-black">
-                    <span className="font-semibold ">
-                        Klaar met gokken op content
-                    </span>{" "}
+
+                    Klaar met gokken op content
+
                     <br />
                     die niets oplevert?
                 </p>
@@ -67,9 +67,14 @@ const Hero = () => {
                         >
                             <source src={petrolheadLoop} type="video/mp4" />
                         </video>
+
+
                     </div>
 
                 </div>
+                <p className="pt-16 text-[48px] md:text-[64px] leading-[1.1] font-bold text-black max-w-6xl">
+                    Wij maken content die opvalt. Die blijft hangen. Die jouw doelgroep raakt en jouw merk in beweging brengt. Snel, krachtig en energiek.
+                </p>
             </div>
         </div>
     );
