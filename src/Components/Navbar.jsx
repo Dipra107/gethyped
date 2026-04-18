@@ -28,9 +28,19 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Button */}
-        <button className="hidden md:flex items-center gap-2 bg-[#e88adf] hover:bg-[#df6ed4] text-white px-5 py-2 rounded-full text-sm font-medium">
+        <button className="hidden md:flex items-center gap-2 bg-[#e499dc] text-black px-1 py-1 rounded-lg text-sm font-medium transition-all duration-300 ease-out
+  hover:bg-[#e499dc]
+  hover:scale-x-105
+  hover:skew-x-[8deg]
+  hover:skew-y-[-4deg]
+  hover:rounded-md
+  hover:shadow-md">
           Get Results
-          <span className="bg-white text-pink-500 text-xs px-2 py-[2px] rounded-full">
+          <span className="bg-white text-pink-500 text-md px-2 py-[2px] rounded-lg transition-all duration-300 ease-out hover:scale-x-105
+  hover:skew-x-[8deg]
+  hover:skew-y-[-4deg]
+  hover:rounded-md
+  hover:shadow-md ">
             🔥
           </span>
         </button>

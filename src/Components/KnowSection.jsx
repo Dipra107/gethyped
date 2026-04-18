@@ -16,16 +16,21 @@ const KnowSection = () => {
         </div>
 
         {/* CENTER CONTENT */}
-        <div className="flex-1 min-w-0">
+        <div className="flex-1 min-w-0 max-w-[420px] mx-auto">
 
-          <p className="text-[16px] md:text-[25px] leading-[1.5] md:leading-[1.7] font-semibold text-black">
+          <p className="text-[15px] md:text-[22px] leading-[1.5] md:leading-[1.7] font-semibold text-black text-left">
             We stoppen niet bij mooie plaatjes en vette beelden. We maken het meetbaar.
             Zo weet je precies wat werkt en wat niet. Nooit meer content zonder strategie.
             Nooit meer content zonder resultaat.
           </p>
 
-          {/* BUTTON */}
-          <button className="mt-5 md:mt-6 flex items-center gap-3 border border-black rounded-xl px-3 py-2 md:px-4 md:py-2 text-lg text-black font-semibold hover:bg-black hover:text-white transition">
+          <button className="mt-3 md:mt-6 flex items-center gap-3 border border-black rounded-xl px-1 py-1 text-md text-black font-semibold transition-all duration-300 ease-out
+  hover:bg-[#FAF4EC]
+  hover:scale-x-105
+  hover:skew-x-[8deg]
+  hover:skew-y-[-4deg]
+  hover:rounded-md
+  hover:shadow-md">
             Leer ons kennen
             <span className="bg-black text-white rounded-md px-2 py-1 text-md font-bold">
               →

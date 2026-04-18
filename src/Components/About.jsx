@@ -72,7 +72,7 @@ const Hero = () => {
                     </div>
 
                 </div>
-                <p className="pt-16 text-[48px] md:text-[64px] leading-[1.1] font-bold text-black max-w-6xl">
+                <p className="pt-16 text-[42px] md:text-[60px] leading-[1.1] font-bold text-black max-w-[1000px] mx-auto text-left">
                     Wij maken content die opvalt. Die blijft hangen. Die jouw doelgroep raakt en jouw merk in beweging brengt. Snel, krachtig en energiek.
                 </p>
             </div>
