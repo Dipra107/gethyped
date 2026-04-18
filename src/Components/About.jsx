@@ -8,8 +8,8 @@ const Hero = () => {
             <div className="max-w-7xl w-full">
 
               
-                <h1 className="text-[64px] leading-[72px] font-bold text-black">
-                    Get Hyped. Get <br /> Noticed. Get Results.
+                <h1 className="text-6xl md:text-[75px] font-bold text-black">
+                    Get Hyped. Get <br className="hidden md:block" /> Noticed. Get Results.
                 </h1>
 
            

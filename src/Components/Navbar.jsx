@@ -15,12 +15,12 @@ const Navbar = () => {
           <img
             src={logo}
             alt="GETHYPED"
-            className="h-8 md:h-16 object-contain cursor-pointer"
+            className="h-7 md:h-11 object-contain cursor-pointer"
           />
         </a>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex bg-[#f3efe9] px-7 py-2 rounded-full gap-8 text-[14px] font-medium">
+        <div className="hidden md:flex bg-[#ffffff] px-7 py-2 rounded-full gap-8 text-[14px] font-medium">
           <a href="#" className="text-black">Expertises</a>
           <a href="#" className="text-black">Work</a>
           <a href="#" className="text-black">About</a>

@@ -1,6 +1,4 @@
 import React from "react";
-
-// import all logos
 import tho from "../assets/Tho.svg";
 import de from "../assets/de.svg";
 import zwarte from "../assets/zwarte.svg";
