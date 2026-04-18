@@ -24,6 +24,7 @@ const KnowSection = () => {
             Nooit meer content zonder resultaat.
           </p>
 
+
           <button className="mt-3 md:mt-6 flex items-center gap-3 border border-black rounded-xl px-1 py-1 text-md text-black font-semibold transition-all duration-300 ease-out
   hover:bg-[#FAF4EC]
   hover:scale-x-105
@@ -36,7 +37,6 @@ const KnowSection = () => {
               →
             </span>
           </button>
-
         </div>
 
         {/* RIGHT ARROW */}
