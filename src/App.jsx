@@ -1,13 +1,15 @@
 import Navbar from "./Components/Navbar";
-import Hero from "./Components/hero";
+import About from "./Components/About";
 import KnowSection from "./Components/KnowSection";
+import Brands from "./Components/Brands";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
+      <About />
       <KnowSection />
+      <Brands />
       
 
     </>

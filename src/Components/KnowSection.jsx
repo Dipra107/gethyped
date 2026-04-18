@@ -3,7 +3,7 @@ import girlImg from "../assets/girl.png";
 
 const KnowSection = () => {
   return (
-    <div className="w-full bg-[#e9e1d8] px-6 py-20 flex justify-center">
+    <div className="w-full bg-[#FAF4EC] px-6 py-20 flex justify-center">
       <div className="max-w-7xl w-full flex items-center justify-between gap-6">
 
         {/* LEFT IMAGE */}

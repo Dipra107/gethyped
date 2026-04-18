@@ -4,15 +4,15 @@ import petrolheadLoop from "../assets/petrolhead_loop.mp4";
 
 const Hero = () => {
     return (
-        <div className="w-full min-h-screen bg-[#e9e1d8] flex items-center justify-center mt-0 px-6">
+        <div className="w-full min-h-screen bg-[#FAF4EC] flex items-center justify-center mt-0 px-6">
             <div className="max-w-7xl w-full">
 
-                {/* Heading */}
+              
                 <h1 className="text-[64px] leading-[72px] font-bold text-black">
                     Get Hyped. Get <br /> Noticed. Get Results.
                 </h1>
 
-                {/* Sub text */}
+           
                 <p className="mt-6 text-lg font-semibold text-black">
 
                     Klaar met gokken op content

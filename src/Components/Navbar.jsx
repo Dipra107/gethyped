@@ -1,18 +1,23 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "../assets/gethyped-logo.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="w-full bg-[#e6ded6] px-8 py-5 pb-0">
-      
-      <div className="flex items-center justify-between">
-        
+    <div className="w-full bg-[#FAF4EC] px-8 py-5 pb-2 md:pb-7">
+
+      <div className="flex items-center justify-between max-w-7xl mx-auto">
+
         {/* Logo */}
-        <div className="text-[26px] font-black tracking-tight">
-          GETHYPED
-        </div>
+        <a href="/" className="flex items-center">
+          <img
+            src={logo}
+            alt="GETHYPED"
+            className="h-8 md:h-16 object-contain cursor-pointer"
+          />
+        </a>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex bg-[#f3efe9] px-7 py-2 rounded-full gap-8 text-[14px] font-medium">
