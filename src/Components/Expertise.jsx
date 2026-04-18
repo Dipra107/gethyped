@@ -178,7 +178,7 @@ const Expertise = () => {
                         <div className="flex flex-col max-w-2xl">
 
                             <div className="relative">
-                                <div className="absolute top-[-80px] right-[-500px] text-[50px] md:text-[90px] font-bold text-white/40">
+                                <div className="absolute top-[-50px] right-[-830px] text-[50px] md:text-[90px] font-bold text-white/40">
                                     04
                                 </div>
 
