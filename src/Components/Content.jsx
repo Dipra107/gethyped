@@ -77,16 +77,14 @@ export default function ContentSection() {
                         Wij vertellen jouw verhaal. Op een manier die écht past bij jouw doelgroep. Met creatieve content die werkt en het verschil maakt.
                     </p>
                     <button
-                        className="h-9 flex items-center gap-2 text-black border border-black rounded-xl text-sm font-medium px-1 bg-[#FAF4EC]
-      transition-all duration-300 ease-out
+                        className="h-9 flex items-center gap-2 text-black border border-black rounded-xl text-sm font-medium px-1 bg-[#FAF4EC] transition-all duration-300 ease-out
       hover:bg-[#ddd6cc]
       hover:scale-x-105
       hover:skew-x-[8deg]
       hover:skew-y-[-4deg]
       hover:rounded-md
-      hover:shadow-md
-    "
-                    >
+      hover:shadow-md">
+                  
                         Bekijk al ons werk
 
                         <span className="bg-black text-white rounded-md px-2 py-1 text-md font-bold">

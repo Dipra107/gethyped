@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import loopSalontopper from "../assets/Loop_Salontopper.mp4";
 import petrolheadLoop from "../assets/petrolhead_loop.mp4";
 
-const Hero = () => {
+const About = () => {
     const [activeCard, setActiveCard] = useState(null);
     const [mouseOffset, setMouseOffset] = useState({ x: 0, y: 0 });
     const wrapRef = useRef(null);
@@ -156,4 +156,4 @@ const Hero = () => {
     );
 };
 
-export default Hero;
+export default About;
