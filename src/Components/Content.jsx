@@ -84,7 +84,7 @@ export default function ContentSection() {
                 <div className="relative flex flex-col items-center md:block gap-12 w-full md:h-[900px] mt-10 md:-mt-24">
                     
                     {/* CARD 1 */}
-                    <div className="md:absolute md:left-0 rotate-[-4deg] md:bottom-[350px]">
+                    <div className="md:absolute md:left-0 rotate-[-4deg] md:rotate-0 md:bottom-[350px]">
                         <Card
                             video={bullit}
                             title={<><span>Van nul naar vol,</span><br/><span>binnen 3 weken</span></>}
@@ -96,7 +96,7 @@ export default function ContentSection() {
                     </div>
 
                     {/* CARD 2 */}
-                    <div className="md:absolute md:left-[350px] rotate-3 md:bottom-[450px]">
+                    <div className="md:absolute md:left-[350px] rotate-3 md:rotate-0 md:bottom-[450px]">
                         <Card
                             video={roasta}
                             title={<><span>Zacht in smaak,</span><br/><span>sterk in beeld</span></>}
@@ -108,7 +108,7 @@ export default function ContentSection() {
                     </div>
 
                     {/* CARD 3 */}
-                    <div className="md:absolute md:left-[700px] rotate-[-2deg] md:bottom-[550px]">
+                    <div className="md:absolute md:left-[700px] rotate-[-2deg] md:rotate-0 md:bottom-[550px]">
                         <Card
                             video={loco}
                             title={<><span>Content die écht</span><br/><span>smaak en raakt</span></>}
