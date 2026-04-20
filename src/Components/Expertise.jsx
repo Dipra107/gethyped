@@ -29,9 +29,9 @@ const Expertise = () => {
                                 </div>
                             </div>
 
-                            <div className="mt-4 md:mt-auto">
+                            <div className="mt-4 md:mt-100">
                                 <p className="text-black font-bold text-xl">Slimme strategie. Sterke start.</p>
-                                <p className="text-black font-medium mt-4 md:w-[320px]">We duiken diep in jouw merk, doelgroep en doelen.</p>
+                                <p className="text-black font-medium mt-4 md:w-[320px]">We duiken diep in jouw merk, doelgroep en doelen. En vertalen data naar een duidelijk plan met formats die écht impact maken. Zo weet je precies waarom het werkt.</p>
                                 {/* BUTTON WITH HOVER */}
                                 <button className="mt-6 flex items-center gap-3 border border-[#fa5424] rounded-xl bg-[#fa5424] px-1 py-1 text-sm text-white font-semibold transition-all duration-300 ease-out 
                                 hover:scale-x-105 hover:skew-x-[8deg] hover:skew-y-[-4deg] hover:shadow-md">
@@ -64,8 +64,11 @@ const Expertise = () => {
                                 </div>
                             </div>
 
-                            <div className="mt-4 md:mt-auto">
+                            <div className="mt-4 md:mt-100">
                                 <p className="text-black font-bold text-xl">Content die opvalt en raakt..</p>
+                                <p className="text-black font-medium w-[320px] mt-4">
+                                    We maken content die opvalt. Blijft hangen. En jouw doelgroep raakt. Creatief, snel en energiek. Altijd met het doel voor ogen.
+                                </p>
                                 <button className="mt-6 flex items-center gap-3 border border-white rounded-xl bg-white px-1 py-1 text-sm text-black font-semibold transition-all duration-300 ease-out 
                                 hover:scale-x-105 hover:skew-x-[8deg] hover:skew-y-[-4deg] hover:shadow-md">
                                     <span className="pl-3">Meer over content creatie</span>
@@ -97,8 +100,11 @@ const Expertise = () => {
                                 </div>
                             </div>
 
-                            <div className="mt-4 md:mt-auto">
+                            <div className="mt-4 md:mt-100">
                                 <p className="text-black font-bold text-xl">Zichtbaar waar en wanneer het telt.</p>
+                                <p className="text-black font-medium w-[340px] mt-4">
+                                    De juiste content verdient het om gezien te worden. We verspreiden de content waar jouw doelgroep is. Zo raakt jouw merk de juiste mensen, precies waar en wanneer het telt.
+                                </p>
                                 <button className="mt-6 flex items-center gap-3 border border-white rounded-xl bg-white px-1 py-1 text-sm text-black font-semibold transition-all duration-300 ease-out 
                                 hover:scale-x-105 hover:skew-x-[8deg] hover:skew-y-[-4deg] hover:shadow-md">
                                     <span className="pl-3">Meer over activatie</span>
@@ -130,8 +136,11 @@ const Expertise = () => {
                                 </div>
                             </div>
 
-                            <div className="mt-4 md:mt-auto">
+                            <div className="mt-4 md:mt-100">
                                 <p className="text-black font-bold text-xl">Inzichten die impact maken.</p>
+                                <p className="text-black font-medium w-[340px] mt-4">
+                                    We duiken in de cijfers om te snappen wat écht werkt. En sturen jouw content scherp bij.
+                                </p>
                                 <button className="mt-6 flex items-center gap-3 border border-white rounded-xl bg-white px-1 py-1 text-sm text-black font-semibold transition-all duration-300 ease-out 
                                 hover:scale-x-105 hover:skew-x-[8deg] hover:skew-y-[-4deg] hover:shadow-md">
                                     <span className="pl-3">Meer over data</span>
