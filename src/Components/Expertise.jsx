@@ -33,15 +33,21 @@ const Expertise = () => {
                                 <p className="text-black font-medium w-[320px] mt-4">
                                     We duiken diep in jouw merk, doelgroep en doelen. En vertalen data naar een duidelijk plan met formats die écht impact maken.
                                 </p>
-                                <button className="mt-3 md:mt-6 flex items-center gap-3 border border-[#fa5424] rounded-xl bg-[#fa5424] px-1 py-1 text-sm text-white font-semibold">
+                                <button className="mt-3 md:mt-6 flex items-center gap-3 border border-[#fa5424] rounded-xl bg-[#fa5424] px-1 py-1 text-sm text-white font-semibold  transition-all duration-300 ease-out
+  hover:bg-[#fa5424]
+  hover:scale-x-105
+  hover:skew-x-[8deg]
+  hover:skew-y-[-4deg]
+  hover:rounded-md
+  hover:shadow-md">
                                     Meer over social strategie
                                     <span className="bg-white text-black rounded-md px-2 py-1 text-md font-extrabold">→</span>
                                 </button>
                             </div>
                         </div>
-                        <div className="w-full md:w-[260px] h-[250px] md:h-[340px] relative self-end mt-10 md:mt-0">
+                        <div className="w-full md:w-[270px] h-[250px] md:h-[350px] relative flex justify-center items-center self-end mt-10 md:mt-0">
                             <div className="absolute inset-0 border-[8px] border-[#fa5424] rounded-3xl rotate-[4deg]"></div>
-                            <video src={video1} autoPlay muted loop className="w-full h-full object-cover rounded-3xl rotate-[4deg] relative z-10" />
+                            <video src={video1} autoPlay muted loop className="w-[260px] h-[338px] object-cover rounded-3xl rotate-[4deg] relative z-10" />
                         </div>
                     </div>
 
@@ -68,15 +74,21 @@ const Expertise = () => {
                                 <p className="text-black font-medium w-[320px] mt-4">
                                     We maken content die opvalt. Blijft hangen. En jouw doelgroep raakt. Creatief, snel en energiek.
                                 </p>
-                                <button className="mt-3 md:mt-6 flex items-center gap-3 border border-white rounded-xl bg-white px-1 py-1 text-sm text-black font-semibold">
+                                <button className="mt-3 md:mt-6 flex items-center gap-3 border border-white rounded-xl bg-white px-1 py-1 text-sm text-black font-semibold  transition-all duration-300 ease-out
+  hover:bg-[#ffffff]
+  hover:scale-x-105
+  hover:skew-x-[8deg]
+  hover:skew-y-[-4deg]
+  hover:rounded-md
+  hover:shadow-md">
                                     Meer over content creatie
                                     <span className="bg-black text-white rounded-md px-2 py-1 text-md font-bold">→</span>
                                 </button>
                             </div>
                         </div>
-                        <div className="w-full md:w-[250px] h-[300px] md:h-[330px] relative self-end mt-10 md:mt-0">
+                        <div className="w-full md:w-[270px] h-[250px] md:h-[350px] relative flex justify-center items-center self-end mt-10 md:mt-0">
                             <div className="absolute inset-0 border-[8px] border-white rounded-3xl rotate-[4deg]"></div>
-                            <video src={video2} autoPlay muted loop className="w-full h-full object-cover rounded-3xl rotate-[4deg] relative z-10" />
+                            <video src={video2} autoPlay muted loop className="w-[260px] h-[338px] object-cover rounded-3xl rotate-[4deg] relative z-10" />
                         </div>
                     </div>
 
@@ -103,15 +115,21 @@ const Expertise = () => {
                                 <p className="text-black font-medium w-[340px] mt-4">
                                     De juiste content verdient het om gezien te worden. We verspreiden de content waar jouw doelgroep is.
                                 </p>
-                                <button className="mt-3 md:mt-6 flex items-center gap-3 border border-white rounded-xl bg-white px-1 py-1 text-sm text-black font-semibold">
+                                <button className="mt-3 md:mt-6 flex items-center gap-3 border border-white rounded-xl bg-white px-1 py-1 text-sm text-black font-semibold  transition-all duration-300 ease-out
+  hover:bg-[#ffffff]
+  hover:scale-x-105
+  hover:skew-x-[8deg]
+  hover:skew-y-[-4deg]
+  hover:rounded-md
+  hover:shadow-md">
                                     Meer over activatie
                                     <span className="bg-black text-white rounded-md px-2 py-1 text-md font-bold">→</span>
                                 </button>
                             </div>
                         </div>
-                        <div className="w-full md:w-[250px] h-[300px] md:h-[330px] relative self-end mt-10 md:mt-0">
+                        <div className="w-full md:w-[270px] h-[250px] md:h-[350px] relative flex justify-center items-center self-end mt-10 md:mt-0">
                             <div className="absolute inset-0 border-[8px] border-white rounded-3xl rotate-[4deg]"></div>
-                            <video src={video3} autoPlay muted loop className="w-full h-full object-cover rounded-3xl rotate-[4deg] relative z-10" />
+                            <video src={video3} autoPlay muted loop className="w-[260px] h-[338px] object-cover rounded-3xl rotate-[4deg] relative z-10" />
                         </div>
                     </div>
 
@@ -138,15 +156,21 @@ const Expertise = () => {
                                 <p className="text-black font-medium w-[340px] mt-4">
                                     We duiken in de cijfers om te snappen wat écht werkt. En sturen jouw content scherp bij.
                                 </p>
-                                <button className="mt-3 md:mt-6 flex items-center gap-3 border border-white rounded-xl bg-white px-1 py-1 text-sm text-black font-semibold">
+                                <button className="mt-3 md:mt-6 flex items-center gap-3 border border-white rounded-xl bg-white px-1 py-1 text-sm text-black font-semibold  transition-all duration-300 ease-out
+  hover:bg-[#ffffff]
+  hover:scale-x-105
+  hover:skew-x-[8deg]
+  hover:skew-y-[-4deg]
+  hover:rounded-md
+  hover:shadow-md">
                                     Meer over data
                                     <span className="bg-black text-white rounded-md px-2 py-1 text-md font-bold">→</span>
                                 </button>
                             </div>
                         </div>
-                        <div className="w-full md:w-[250px] h-[300px] md:h-[330px] relative self-end mt-10 md:mt-0">
+                        <div className="w-full md:w-[270px] h-[250px] md:h-[350px] relative flex justify-center items-center self-end mt-10 md:mt-0">
                             <div className="absolute inset-0 border-[8px] border-white rounded-3xl rotate-[4deg]"></div>
-                            <video src={video4} autoPlay muted loop className="w-full h-full object-cover rounded-3xl rotate-[4deg] relative z-10" />
+                            <video src={video4} autoPlay muted loop className="w-[260px] h-[338px] object-cover rounded-3xl rotate-[4deg] relative z-10" />
                         </div>
                     </div>
 

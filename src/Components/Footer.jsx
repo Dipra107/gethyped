@@ -7,7 +7,7 @@ import {
 import { SiTiktok } from "react-icons/si";
 
 import logo from "../assets/gethyped-logo.png";
-import badge from "../assets/GH.png"; // round badge image
+import badge from "../assets/GH.png";
 
 const Footer = () => {
   const menuItems = ["Expertises", "Work", "About", "Contact"];
@@ -79,7 +79,7 @@ const Footer = () => {
             <path
               d="
                 M0 360
-                C 70 338, 145 320, 235 300
+                C 70 330, 145 320, 235 300
                 C 390 266, 565 232, 760 195
                 C 930 162, 1110 128, 1285 98
                 C 1345 88, 1395 80, 1440 76
@@ -87,7 +87,7 @@ const Footer = () => {
                 L0 440
                 Z
               "
-              fill="#d8d1c8"
+              fill="#eae4d8"
             />
           </svg>
 
@@ -212,14 +212,14 @@ const Footer = () => {
                 <div className="text-sm mt-2 text-black">
                   <div className="mb-5">
                     <h3 className="font-bold text-[16px] mb-1">Contact</h3>
-                    <p>info@gethyped.nl</p>
-                    <p>+31 6 1533 7496</p>
+                    <p className=" hover:text-orange-500 transition cursor-pointer">info@gethyped.nl</p>
+                    <p className=" hover:text-orange-500 transition cursor-pointer">+31 6 1533 7496</p>
                   </div>
 
                   <div>
                     <h3 className="font-bold text-[16px] mb-1">Adres</h3>
-                    <p>Beltrumsestraat 6,</p>
-                    <p>7141 AL Groenlo</p>
+                    <p className=" hover:text-orange-500 transition cursor-pointer">Beltrumsestraat 6, 7141 AL Groenlo</p>
+                    
                   </div>
                 </div>
               </div>
@@ -227,8 +227,10 @@ const Footer = () => {
               {/* Bottom row */}
               <div className="mt-12 flex flex-col gap-3 md:flex-row md:items-center md:justify-between text-[13px] text-[#6b655e]">
                 <p>© 2026 Get Hyped</p>
-                <p>© Design by Dipra JR</p>
-                <a href="#" className="no-underline hover:text-black transition">
+                <a href="#" className=" hover:text-orange-500 transition">
+                  © Design by Dipra JR
+                </a>
+                <a href="#" className=" hover:text-orange-500 transition">
                   Privacyvoorwaarden
                 </a>
               </div>

@@ -37,7 +37,7 @@ const Brands = () => {
             </div>
 
             {/* Marquee */}
-            <div className="relative flex overflow-hidden group">
+            <div className="relative max-w-7xl mx-auto flex overflow-hidden group">
 
                 <div className="flex gap-3 animate-marquee whitespace-nowrap group-hover:[animation-play-state:paused]">
                     {[...brands, ...brands].map((brand, i) => (
