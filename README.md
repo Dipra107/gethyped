@@ -106,9 +106,4 @@ This project helped me focus on:
 
 ## ⭐ Support  
 
-If this project stands out to you, consider giving it a ⭐# 🚀 GETHYPED  
-
-<p align="center">
-  <b>Social-first Content Agency Website</b><br/>
-  Built with modern UI, smooth animations, and high-impact design.
-</p>
+If this project stands out to you, consider giving it a ⭐
