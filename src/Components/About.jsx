@@ -57,19 +57,19 @@ const About = () => {
         let scale = 1;
         let zIndex = 10 + index;
 
-        // aka-baka motion
+    
         x += mouseOffset.x * (18 + index * 4) * (index % 2 === 0 ? -1 : 1);
         y += mouseOffset.y * (10 + index * 2);
         rotate += mouseOffset.x * (6 + index);
 
-        // active card effect
+      
         if (activeCard !== null) {
             if (index < activeCard) x -= 78;
             if (index > activeCard) x += 78;
 
             if (index === activeCard) {
                 scale = 1.12;
-                rotate = 0;   // zoom অবস্থায় soja
+                rotate = 0;   
                 y -= 24;
                 zIndex = 50;
             }
@@ -85,7 +85,7 @@ const About = () => {
     return (
         <div className="w-full min-h-screen bg-[#FAF4EC] flex items-center justify-center px-6">
             <div className="max-w-7xl w-full">
-                <h1 className="text-6xl md:text-[75px] font-bold text-black">
+                <h1 className="text-[57px] md:text-[75px] font-bold text-black">
                     Get Hyped. Get <br className="hidden md:block" /> Noticed. Get Results.
                 </h1>
 
@@ -99,7 +99,7 @@ const About = () => {
                     ref={wrapRef}
                     className="mt-20 w-fit mx-auto flex items-center"
                     onMouseMove={handleMouseMove}
-                    onMouseLeave={() => setActiveCard(null)} // zoom off, but aka-baka freeze
+                    onMouseLeave={() => setActiveCard(null)}
                 >
                     {cards.map((card, index) => (
                         <div
@@ -109,6 +109,7 @@ const About = () => {
                             className={`
                                 relative shrink-0 cursor-pointer select-none
                                 ${index !== 0 ? "-ml-3 md:-ml-5" : ""}
+                                ${index > 1 ? "hidden md:block" : "block"}
                                 ${card.desktopOnly ? "hidden md:block" : ""}
                             `}
                             style={getCardStyle(index, card.rotate)}
@@ -118,21 +119,21 @@ const About = () => {
                                     className="w-[200px] h-[260px] md:w-[300px] md:h-[380px] rounded-3xl p-6 flex flex-col justify-between text-black shadow-[0_8px_30px_rgba(0,0,0,0.08)]"
                                     style={{ backgroundColor: card.bg }}
                                 >
-                                    <h2 className="text-5xl md:text-6xl font-bold">
+                                    <h2 className="text-4xl md:text-6xl font-bold">
                                         {card.title}
                                     </h2>
 
                                     <div>
-                                        <p className="font-bold text-xl md:text-2xl border-b border-black pb-2">
+                                        <p className="font-bold text-md md:text-2xl border-b border-black pb-2">
                                             {card.subtitle}
                                         </p>
-                                        <p className="text-sm md:text-base mt-1">
+                                        <p className="text-[12px] md:text-base mt-1">
                                             {card.text}
                                         </p>
                                     </div>
                                 </div>
                             ) : (
-                                <div className="w-[200px] h-[260px] md:w-[300px] md:h-[380px] rounded-3xl overflow-hidden bg-white shadow-[0_8px_30px_rgba(0,0,0,0.08)]">
+                                <div className="w-[200px] h-[260px] md:w-[280px] md:h-[380px] rounded-3xl overflow-hidden bg-white shadow-[0_8px_30px_rgba(0,0,0,0.08)]">
                                     <video
                                         className="w-full h-full object-cover"
                                         autoPlay
@@ -148,7 +149,7 @@ const About = () => {
                     ))}
                 </div>
 
-                <p className="pt-16 text-[42px] md:text-[60px] leading-[1.1] font-bold text-black max-w-[1000px] mx-auto text-left">
+                <p className="pt-16 text-[40px] md:text-[60px] leading-[1.1] font-bold text-black max-w-3xl md:max-w-[1000px] mx-auto text-left">
                     Wij maken content die opvalt. Die blijft hangen. Die jouw doelgroep raakt en jouw merk in beweging brengt. Snel, krachtig en energiek.
                 </p>
             </div>

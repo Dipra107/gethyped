@@ -15,7 +15,7 @@ const Navbar = () => {
           <img
             src={logo}
             alt="GETHYPED"
-            className="h-8 md:h-13 object-contain cursor-pointer"
+            className="h-10 md:h-13 object-contain cursor-pointer"
           />
         </a>
 
